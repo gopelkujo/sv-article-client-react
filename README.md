@@ -17,11 +17,12 @@ React dashboard for the article management.
 2. In this repo:
 
 ```bash
+cp .env.example .env
 npm install
 npm run dev
 ```
 
-Vite proxies `/api/*` → `http://localhost:8080/*` so the browser avoids CORS.
+Vite proxies `/api/*` → `http://localhost:8080/*` so the browser avoids CORS. Adjust `VITE_API_BASE_URL` in `.env` if your API base differs.
 
 Other scripts:
 
